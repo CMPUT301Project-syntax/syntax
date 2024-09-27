@@ -4,7 +4,7 @@ package com.example.syntax; // repo name
 public abstract class Shape {
     int x;
     int y;
-    String color; 
+    String color = "$PUT_YOUR_CHOICE_OF_COLOR";
 
 
     public Shape(int x, int y) {
